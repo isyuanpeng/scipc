@@ -1,0 +1,30 @@
+### 登录并且设置token
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "512020",
+  "password": "123456"
+}
+
+> {% client.global.set("token", response.body.token); %}
+
+### 登录并且设置token
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "Admin",
+  "password": "123456"
+}
+
+> {% client.global.set("token", response.body.token); %}
+
+### 登出
+DELETE {{host}}/auth/logout
+Content-Type: application/json
+Authorization: "{{token}}"
+
+{}
+
+###

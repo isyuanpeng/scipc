@@ -1,0 +1,47 @@
+### 查询
+GET {{host}}/api/student
+Authorization: {{token}}
+
+### 更新
+PUT {{host}}/api/student
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 4,
+  "stuNumber": "512020",
+  "name": "Student",
+  "phone": "17745463152",
+  "email": "idea@163.com"
+}
+
+### 删除
+DELETE {{host}}/api/student
+Content-Type: application/json
+Authorization: {{token}}
+
+[4]
+
+### 查询
+GET {{host}}/api/teacher?id=1
+Authorization: {{token}}
+
+### 更新
+PUT {{host}}/api/teacher
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 1,
+  "stuNumber": "511010",
+  "office": "东六"
+}
+
+### 删除
+DELETE {{host}}/api/teacher
+Content-Type: application/json
+Authorization: {{token}}
+
+[1]
+
+###

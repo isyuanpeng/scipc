@@ -1,0 +1,102 @@
+### 查询
+GET {{host}}/api/course-types
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/course-types
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "课程类型test1",
+  "remark": "Test CourseType Remark"
+}
+
+### 更新
+PUT {{host}}/api/course-types
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 1,
+  "name": "CourseType"
+}
+
+### 删除
+DELETE {{host}}/api/course-types
+Content-Type: application/json
+Authorization: {{token}}
+
+[1]
+
+### 课程
+### 查询
+GET {{host}}/api/courses
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/courses
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "课程test1",
+  "remark": "Test Course Remark",
+  "courseType": {
+    "id": 2
+  }
+}
+
+### 更新
+PUT {{host}}/api/courses
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 1,
+  "name": "updateCourse",
+  "code": "1022",
+  "url": "wwww.123.com"
+}
+
+### 删除
+DELETE {{host}}/api/courses
+Content-Type: application/json
+Authorization: {{token}}
+
+[2]
+
+### 学生课程
+### 查询
+GET {{host}}/api/student-courses?studentId=21
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/student-courses
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "课程类型test1",
+  "remark": "Test CourseType Remark"
+}
+
+### 更新
+PUT {{host}}/api/student-courses
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 1,
+  "name": "CourseType"
+}
+
+### 删除
+DELETE {{host}}/api/student-courses
+Content-Type: application/json
+Authorization: {{token}}
+
+[1]
+
+###
+

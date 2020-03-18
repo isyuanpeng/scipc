@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>scipc</artifactId>
+        <groupId>com.yuanpeng</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>scipc-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>scipc-manager-dao</module>
+        <module>scipc-manager-service</module>
+        <module>scipc-manager-pojo</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yuanpeng</groupId>
+            <artifactId>scipc-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

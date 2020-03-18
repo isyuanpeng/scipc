@@ -1,0 +1,41 @@
+### 查询
+GET {{host}}/api/permissions
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/permissions
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "课程页面",
+  "url": "/api/course",
+  "remark": "课程",
+  "type": 1,
+  "permission": "course",
+  "parentId": 0
+}
+
+### 更新
+PUT {{host}}/api/permissions
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 5,
+  "name": "课程页面",
+  "url": "/api/course",
+  "remark": "课程",
+  "type": 1,
+  "permission": "course",
+  "parentId": 0
+}
+
+### 删除
+DELETE {{host}}/api/permissions
+Content-Type: application/json
+Authorization: {{token}}
+
+[]
+
+###

@@ -1,0 +1,14 @@
+com\yuanpeng\repository\LearningRepository.class
+com\yuanpeng\repository\HomeworkRepository.class
+com\yuanpeng\repository\ViolationRepository.class
+com\yuanpeng\repository\RoleRepository.class
+com\yuanpeng\repository\LocalFileRepository.class
+com\yuanpeng\repository\MessageRepository.class
+com\yuanpeng\repository\StudentCourseRepository.class
+com\yuanpeng\repository\UserRepository.class
+com\yuanpeng\repository\HomeworkScoreRepository.class
+com\yuanpeng\repository\SignRepository.class
+com\yuanpeng\repository\LeaveRepository.class
+com\yuanpeng\repository\PermissionRepository.class
+com\yuanpeng\repository\CourseRepository.class
+com\yuanpeng\repository\CourseTypeRepository.class

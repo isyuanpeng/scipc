@@ -1,0 +1,35 @@
+### 查询
+GET {{host}}/api/roles
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/roles
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "Test Role",
+  "remark": "Test Role Remark",
+  "code": "Test Role code"
+}
+
+### 更新
+PUT {{host}}/api/roles
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 8,
+  "name": "Test Role Update",
+  "remark": "Test Role Remark Update",
+  "code": "code Update"
+}
+
+### 删除
+DELETE {{host}}/api/roles
+Content-Type: application/json
+Authorization: {{token}}
+
+[8]
+
+###

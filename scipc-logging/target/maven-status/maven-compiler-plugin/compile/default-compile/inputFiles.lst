@@ -1,0 +1,11 @@
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\aspect\LogAspect.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\aop\Log.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\mapper\LogSmallMapper.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\impl\LogServiceImpl.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\mapper\LogErrorMapper.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\dto\LogQueryCriteria.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\dto\LogErrorDTO.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\dto\LogSmallDTO.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\service\LogService.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\repository\LogRepository.java
+F:\2020假期\scipc\scipc-logging\src\main\java\com\yuanpeng\domain\Log.java

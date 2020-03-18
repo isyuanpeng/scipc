@@ -1,0 +1,46 @@
+
+### 增加用户
+POST {{host}}/api/users
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "username": "test user",
+  "password": "123456"
+}
+
+### 查询用户
+GET {{host}}/api/users
+Accept: application/json
+Content-Type: application/json
+Authorization: {{token}}
+
+### 查询用户根据角色
+GET {{host}}/api/users/role/student
+Accept: application/json
+Content-Type: application/json
+Authorization: {{token}}
+
+
+### 更新用户
+PUT {{host}}/api/users
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 15,
+  "username": "test user update",
+  "password": "123456"
+}
+
+###
+DELETE {{host}}/api/users
+Content-Type: application/json
+Authorization: {{token}}
+
+[15]
+
+###
+
+
+

@@ -1,0 +1,13 @@
+com\yuanpeng\service\dto\LogErrorDTO.class
+com\yuanpeng\service\mapper\LogSmallMapper.class
+com\yuanpeng\service\mapper\LogSmallMapperImpl.class
+com\yuanpeng\service\dto\LogSmallDTO.class
+com\yuanpeng\aspect\LogAspect.class
+com\yuanpeng\service\impl\LogServiceImpl.class
+com\yuanpeng\service\mapper\LogErrorMapperImpl.class
+com\yuanpeng\service\dto\LogQueryCriteria.class
+com\yuanpeng\service\LogService.class
+com\yuanpeng\aop\Log.class
+com\yuanpeng\repository\LogRepository.class
+com\yuanpeng\domain\Log.class
+com\yuanpeng\service\mapper\LogErrorMapper.class

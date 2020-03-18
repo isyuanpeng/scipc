@@ -1,0 +1,32 @@
+### 查询
+GET {{host}}/api/homework
+Authorization: {{token}}
+
+### 增加
+POST {{host}}/api/homework
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "name": "课程类型test1",
+  "remark": "Test CourseType Remark"
+}
+
+### 更新
+PUT {{host}}/api/homework
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+  "id": 1,
+  "name": "CourseType"
+}
+
+### 删除
+DELETE {{host}}/api/homework
+Content-Type: application/json
+Authorization: {{token}}
+
+[1]
+
+###
